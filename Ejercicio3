@@ -1,4 +1,4 @@
-let inp, inp2, button, greeting, a, b;
+let inp, inp2, button, a, b;
 function setup() {
   createCanvas(300, 300);
   background(220);
