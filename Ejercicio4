@@ -1,4 +1,4 @@
-let inp, inp2, button, greeting, a, b;
+let inp, inp2, button, a, b, inter;
 function setup() {
   createCanvas(300, 300);
   background(220);
@@ -14,11 +14,11 @@ function setup() {
   button.mousePressed(intermedio);
 }
 
-function intermedio(){
-  a = inp.value();
-  b = inp2.value();
+function intermedio(a, b){
+  a = int(inp.value());
+  b = int(inp2.value());
   
-  inter = (a + b) / 2;
+  inter = (a + b)/2;
   
   print(inter);
   
